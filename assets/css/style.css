@@ -264,7 +264,10 @@ bottom: -13px;
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-
+    .projects-img {
+    height: 60%;
+    width: 60%;
+  }
     .hero-text {
       font-size: 60%;
     }
