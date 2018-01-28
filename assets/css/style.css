@@ -244,7 +244,8 @@ bottom: -13px;
     width: 60%;
   }
   #seven {
-    margin-bottom: 80px; 
+    margin-bottom: 80px;
+    margin-top: -20px; 
   }
 
 }
