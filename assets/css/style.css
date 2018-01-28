@@ -76,7 +76,7 @@ padding-bottom: 23px;
 padding: 10px;
 padding-bottom: 23px;
 padding-top: 0;
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 #seven {
 margin-bottom: 60px;
@@ -232,7 +232,7 @@ bottom: -8px;
 bottom: -13px;
 }
 }
-
+/* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -242,6 +242,9 @@ bottom: -13px;
   .projects-img {
     height: 60%;
     width: 60%;
+  }
+  #seven {
+    margin-bottom: 80px; 
   }
 
 }
