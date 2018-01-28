@@ -258,6 +258,19 @@ bottom: -13px;
 
 }
 }
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .hero-text {
+      font-size: 60%;
+    }
+
+
+    }
 
 
 
