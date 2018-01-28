@@ -233,7 +233,7 @@ bottom: -13px;
 }
 }
 
-@media only screen and (min-device-width: 320px) 
+@media only screen and (min-device-width: 375px) 
    { 
 
   .projects-img {
