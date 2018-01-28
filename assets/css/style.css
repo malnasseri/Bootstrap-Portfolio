@@ -266,7 +266,7 @@ bottom: -13px;
     height: 60%;
     width: 60%;
   }
-    .hero-text {
+    .hero-text h1, h4, a{
       font-size: 60%;
     }
 
