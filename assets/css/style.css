@@ -265,9 +265,9 @@ bottom: -13px;
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 
-    .hero-text {
-  position:relative;
-  top: 50%;
+    button {
+      margin-top: -60px;
+    }
   
   
     }
