@@ -1,58 +1,137 @@
-<!DOCTYPE html>
-<html lang="en-us">
-	<head>
-		<title>Mohammed Alnasseri BoostrapPortfolio</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width" initial-scale="1.0">
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">M.Alnasseri Porfolio</a>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-				</div>
-
-				<ul class="nav navbar-nav pull-right">
-					<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="images.html">Projects</a></li>
-					<li class="nav-item" ><a class="nav-link" href="contact.html">Contact</a></li>
-				</ul>
-				</div><!-- /.container-fluid -->
-			</nav>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<div class="jumbotron">
-							<h1>Welcome to my Portfolio</h1>
-						</div>
-						
-					</div>
-					<div class="col-md-4" id="sidebar">
-						<h2>About Me</h2>
-						<p>An ambitious problem solver with a passion to learn new skills, and would like to join a team of like-minded developers. Ability to  create logical and innovative solutions to complex problems. Thorough and precise and has a keen interest in technology, mobile applications and user experience. Looking for a suitable position with a company where outstanding performance is recognised and the possibility to work on a variety of high profile projects. Experienced in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, Sequelize, Express, and Handlebars.
-						</p>
-					</div>
-				</div></div>
-				<nav class="navbar navbar-inverse navbar-fixed-bottom">
-					<div class="container">
-						
-						<a href="https://www.linkedin.com/in/mohammed-alnasseri-23a84913b"><button type="button"  class="btn btn-li"> Linkedin</button></a>
-						
-						<a href="https://github.com/malnasseri"><button  type="button" class="btn btn-git"> Github</button></a>
-						<h4 id="rights">&copy; 2017 M.Alnasseri</h4>
-					</div>
-				</nav>
-				
-				
-			</body>
-		</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/8ff98e4aea.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- <div id="hero">
+      <div class="wrapper">
+      <img id="personal-pic" class="responsive-img pull-left rounded" src="./assets/profilePic.PNG" width="130" height="120" alt="IMAGE"/>
+      <h3>Mohammed's Portfolio</h3>
+    </div>
+  </div> -->
+  
+  <div class="hero-image">
+    <img id="personal-pic" class="responsive-img pull-left rounded" src="./assets/images/profilePic.PNG" width="80" height="70" alt="IMAGE"/>
+  <div class="hero-text">
+    <h1 style="font-size:37px">I am Mohammed</h1>
+    <h4>And I'm a Developer</h4>
+    <a href="mailto:mohammed.alnasseri@icloud.com"><button>Hire me</button></a>
+  </div>
+</div>
+<div id="scroll">
+    <span class="arrow-bounce">↓</span>
+  </div>
+  <div class="wrapper">
+    <section id="one">
+      <div id="about">
+      <h2>About Me</h2>
+      <p>An ambitious problem solver with a passion to learn new skills, and would like to join a team of like-minded developers. Ability to  create logical and innovative solutions to complex problems. Thorough and precise and has a keen interest in technology, mobile applications and user experience. Looking for a suitable position with a company where outstanding performance is recognised and the possibility to work on a variety of high profile projects. </p>
+    </div>
+    </section>
+    <section id="two">
+      <h2>Experience</h2>
+      <p>Experienced with all stages of the development cycle for dynamic web projects, Well-versed in numerous programming languages/libraries/tools including:  HTML5, CSS3, jQuery, Bootstrap, Materialize, NodeJS, Firebase, MySQL, Sequelize, MongoDB, Mongoose, ExpressJS, PassportJS, Bcrypt, Handlebars, ReactJS, GIT, Github, Media Queries, APIs, JSON, REST, AJAX, Writing tests.</p>
+    </section>
+    <h2>Projects</h2>
+    <section id="three">
+      <div class="container-fluid">
+        <div class="row">
+          <img class="responsive-img" src="./assets/images/gorilla.png" alt="IMAGE"/>
+          <div class="info">
+            <p>Gorilla Scheduler/Full Stack Developer</p>
+            <p>Is an employee Management/Scheduling app that allows Managers to add and schedule employees, And Employees to view schedules Anytime Anywhere.<br>Developed using : ReactJS, ReactRouter4, AxiosJS, ExpressJS, MongooseJS, PassportJS, Bcrypt-NodeJS.</p>
+            <a class="btn" rel="noopener noreferrer" target="_blank" href="https://github.com/malnasseri/gorilla-shift-scheduler-react.git">Repository </a>
+            <a class="btn" rel="noopener noreferrer" target="_blank" href="https://gorilla-shift-scheduler.herokuapp.com/"> Live App</a>
+          </div>
+        </div></div>
+      </section>
+      <section id="four">
+        <div class="container-fluid">
+          <div class="row">
+            <img class="responsive-img" src="./assets/images/news.png" alt="IMAGE"/>
+            <div class="info">
+              <h4>Mongo News Scrapper</h4>
+              <h4>Full Stack Developer</h4>
+              <h5>Mongo News Scrapper is an app that let users scrape news from NYT site, Save Articles for later times, Users can also Add, View and Delete notes from each Saved Article.</h5>
+            </div>
+            <div class="links">
+              <h5>Developed using :</h5>
+              <h5>ExpressJS, NodeJS, MongoDB, Mongoose, Handlebars and several npm packages.</h5>
+              <a class="btn" rel="noopener noreferrer" target="_blank" href="https://github.com/malnasseri/mongo-news-scrapper.git">Repository </a>
+              <a class="btn" rel="noopener noreferrer" target="_blank" href="https://mongo-news-scrapper.herokuapp.com/">Live App</a>
+            </div>
+          </div>
+        </section>
+        <section id="five">
+          <div class="container-fluid">
+            <div class="row">
+            <img class="responsive-img" src="./assets/images/friend1.png" alt="IMAGE"/></a>
+            <div className="info">
+              <h4>Friend Finder</h4>
+              <p>Is a Compatibility based application that takes in results from users surveys then compare their results against all other users who have completed it. The application will then display the name and picture of the user with the best match.</p>
+            </div>
+            <div className="links">
+              <h5>Developed using : NodeJS, ExpressJS.</h5>
+              <a class="btn" rel="noopener noreferrer" target="_blank" href=" https://github.com/malnasseri/Friend-Finder.git">Repository </a>
+              <a class="btn" rel="noopener noreferrer" target="_blank" href="https://friend-finder-express-app.herokuapp.com">Live App</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="six">
+        <div class="container-fluid">
+          <div class="row">
+          <img class="responsive-img" src="./assets/images/train1.png" alt="IMAGE"/></a>
+          <div class="info">
+            <h4>Train Scheduler/Front End Developer</h4>
+            <p>Is an app that incorporates Firebase to host arrival and departure data. It will retrieve and manipulate this information with Moment.js and provides information about various trains, And how many minutes remain until thier arrival.</p>
+          </div>
+          <div class="links">
+            <h5>Developed using : jQuery, Firebase, Moment.js, CSS, HTML, And Bootstrap framework.</h5>
+            
+            <a class="btn" rel="noopener noreferrer" target="_blank" href="https://github.com/malnasseri/Train-Scheduler-Firebase.git">Repository </a>
+            <a class="btn" rel="noopener noreferrer" target="_blank" href="https://malnasseri.github.io/Train-Scheduler-Firebase">Live App</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="seven">
+      <div class="container-fluid">
+        <div class="row">
+        <img class="responsive-img" src="./assets/images/trivia1.png" alt="IMAGE"/></a>
+        <div class="info">
+          <h4>Trivia Game/Front End Developer</h4>
+          <p>Trivia Game Is a front end app that uses JavaScript timing events to create a quiz with timed questions. At the end of the quiz, the user's score is displayed.</p>
+        </div>
+        <div class="links" id="trivia-links">
+          <h5>Developed using :</h5>
+          <h5>jQuery, CSS</h5>
+          <a class="btn" id="trivia-btn" rel="noopener noreferrer" target="_blank" href=" https://github.com/malnasseri/TriviaGame.git">Repository </a>
+          <a class="btn" rel="noopener noreferrer" target="_blank" href=" https://malnasseri.github.io/TriviaGame">Live App</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div>
+    <nav class="navbar navbar-fixed-bottom footer">
+      <div class="container">
+        <a class="fa fa-envelope fa-lg" href="mailto:mohammed.alnasseri@icloud.com"></a>
+        <a class="fa fa-linkedin fa-lg" target="_blank" href="https://www.linkedin.com/in/mohammed-alnasseri"></a>
+        <a class="fa fa-github fa-lg" target="_blank" href="https://github.com/malnasseri"></a>
+      </div>
+    </nav>
+  </div>
+  </div> <!-- end .wrapper -->
+  <script src="assets/javascript/app.js" type="text/javascript"></script>
+  
+</body>
+</html>
