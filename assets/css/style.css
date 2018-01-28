@@ -266,7 +266,7 @@ bottom: -13px;
   and (orientation: landscape) { 
 
     #hire {
-      margin-top: -60px;
+      margin-bottom: 60px;
     }
   
   
