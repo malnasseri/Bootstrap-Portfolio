@@ -8,11 +8,7 @@ text-align: center;
 background-color: #e3dac9;
 font-family: "Arial Black";
 }
-#rights {
-  margin-left: 120px;
-  color: black;
 
-}
 .hero-image {
   background-image: url("../images/background.jpg");
   height: 90%;
@@ -203,6 +199,11 @@ background-color: black;
 margin-right: 10px;
 margin-top: 10px;
 color: white;
+}
+#rights {
+  margin-left: 120px;
+  color: black;
+
 }
 @-webkit-keyframes arrow {
 0% {
