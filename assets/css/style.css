@@ -266,10 +266,10 @@ bottom: -13px;
   and (orientation: landscape) { 
 
     .hero-text {
-  position: none;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position:relative;
+  top: 50%;
+  
+  
     }
 
 
