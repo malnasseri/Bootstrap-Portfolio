@@ -239,7 +239,7 @@ bottom: -13px;
 }
 }
 /* Portrait */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 667px) {
 
   .projects-img {
     height: 60px;
