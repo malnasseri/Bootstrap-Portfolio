@@ -242,7 +242,7 @@ bottom: -13px;
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: portrait) { 
 
   .projects-img {
@@ -261,7 +261,7 @@ bottom: -13px;
 /* Landscape */
 @media only screen  
   and (min-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) { 
     body {
       background-color: black;
