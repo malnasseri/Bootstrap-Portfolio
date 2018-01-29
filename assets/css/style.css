@@ -8,6 +8,9 @@ text-align: center;
 background-color: #e3dac9;
 font-family: "Arial Black";
 }
+#hero-h1{
+      font-size: 37px;
+    }
 
 .hero-image {
   background-image: url("../images/background.jpg");
@@ -263,7 +266,12 @@ bottom: -13px;
   and (min-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-
+    button {
+      margin-bottom: 40px;
+    }
+    #hero-h1{
+      font-size: 22px;
+    }
     .projects-img {
     height: 40%;
     width: 40%;
