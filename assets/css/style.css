@@ -243,8 +243,8 @@ bottom: -13px;
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
    { 
-body, html {
-  font-size: 90%;
+section {
+    margin-top: -20px;
 }
   .projects-img {
     height: 60%;
