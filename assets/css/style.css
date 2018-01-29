@@ -241,7 +241,7 @@ bottom: -13px;
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (max-device-width: 668px) 
    { 
  
   .projects-img {
