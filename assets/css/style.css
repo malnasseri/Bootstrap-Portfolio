@@ -200,10 +200,8 @@ margin-right: 10px;
 margin-top: 10px;
 color: white;
 }
-#rights {
-  margin-left: 120px;
-  color: black;
-
+#right {
+  margin-top: 60px;
 }
 @-webkit-keyframes arrow {
 0% {
@@ -242,7 +240,6 @@ bottom: -13px;
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 
   .projects-img {
-    margin-top: -50px;
     height: 180px;
     width: 200px;
   }
