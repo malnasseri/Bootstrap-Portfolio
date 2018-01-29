@@ -246,8 +246,8 @@ bottom: -13px;
   and (orientation: portrait) { 
 
   .projects-img {
-    height: 60%;
-    width: 60%;
+    height: 60px;
+    width: 60px;
   }
   #seven {
     padding-bottom: 45px;
