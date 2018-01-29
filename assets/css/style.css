@@ -163,12 +163,12 @@ margin: 15px 10px 0 0;
 float: right;
 
 }
-#rights {
+/*#rights {
 float: left;
 margin-top: 15px;
 color:white;
 
-}
+}*/
 .fa {
 margin-top: 10px;
 margin-left: 10px;
@@ -263,7 +263,6 @@ bottom: -13px;
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 
   .projects-img {
