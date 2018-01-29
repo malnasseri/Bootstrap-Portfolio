@@ -238,6 +238,21 @@ bottom: -8px;
 bottom: -13px;
 }
 }
+@media screen and (min-width: 667px) { 
+
+  .projects-img {
+    height: 60%;
+    width: 60%;
+  }
+  #seven {
+    padding-bottom: 45px;
+  }
+#rights {
+  margin-left: 120px;
+  color: black;
+
+}
+}
 /* Portrait */
 @media screen and (max-width: 667px) { 
 
