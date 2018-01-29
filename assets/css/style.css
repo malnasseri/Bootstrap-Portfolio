@@ -238,12 +238,11 @@ bottom: -8px;
 bottom: -13px;
 }
 }
-/* Portrait */
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
   .projects-img {
     height: 60%;
@@ -255,21 +254,10 @@ bottom: -13px;
 #rights {
   margin-left: 120px;
   color: black;
+}
 
 }
-}
-/* Landscape */
-@media only screen  
-  and (min-device-width: 375px)
-  and (min-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    body {
-      background-color: black;
-    }
-  
-  
-    }
+
 
 
     
