@@ -241,9 +241,7 @@ bottom: -13px;
 /* Portrait */
 @media screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 640px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (max-device-width: 640px) { 
 
   .projects-img {
     height: 60%;
