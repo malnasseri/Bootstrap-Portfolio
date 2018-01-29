@@ -243,7 +243,7 @@ bottom: -13px;
 }
 }
 /* Portrait */
-@media only screen and (max-device-width: 375px) { 
+@media screen and (max-device-width: 375px) { 
 
   .projects-img {
     height: 60%;
@@ -258,7 +258,7 @@ bottom: -13px;
 
 }
 }
-@media only screen and (max-device-width: 480px) { 
+@media screen and (max-device-width: 480px) { 
 
 
 .projects-img {
