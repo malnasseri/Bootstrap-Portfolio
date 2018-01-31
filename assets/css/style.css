@@ -130,7 +130,6 @@ transition: transform 0.6s ease;
 -moz-transform: rotate(360deg);
 -o-transform: rotate(360deg);
 -ms-transform: rotate(360deg);
-margin-right: 5px;
 }
 #scroll.rotate {
 -webkit-transform: rotate(180deg);
@@ -252,7 +251,9 @@ bottom: -13px;
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-
+  #scroll.clicked {
+margin-right: 10px;
+}
   .projects-img {
     height: 180px;
     width: 200px;
