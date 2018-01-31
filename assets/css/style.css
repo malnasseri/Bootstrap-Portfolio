@@ -130,6 +130,7 @@ transition: transform 0.6s ease;
 -moz-transform: rotate(360deg);
 -o-transform: rotate(360deg);
 -ms-transform: rotate(360deg);
+margin-right: 5px;
 }
 #scroll.rotate {
 -webkit-transform: rotate(180deg);
