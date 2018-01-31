@@ -1,4 +1,12 @@
+$(document).ready(function(){
+    smoothScroll('toTop');
 
+    $(window).on('load', function() {
+    setTimeout(function(){
+        smoothScroll('toTop');
+    }, 0);
+ });
+});
   function smoothScroll(target, time) {
   var margin = ($('#main-header').outerHeight() - 1);
   if (!time) { time = '1000'; }
