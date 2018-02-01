@@ -201,12 +201,12 @@ color: white;
 }
 .btn:hover {
 background-color: darkgrey;
-color: white;
+color: black;
 border: 1px solid black;
 }
 .btn:focus {
 background-color: darkgrey;
-color: white;
+color: black;
 border: 1px solid black;
 }
 #right {
