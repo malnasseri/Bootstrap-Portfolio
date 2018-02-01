@@ -60,23 +60,19 @@ margin-bottom: 20px;
 #three {
 font-family: "Arial Black";
 margin-bottom: 20px;
-padding: 60px 10px 23px 10px;
+padding: 75px 10px 23px 10px;
 }
 #four {
-padding: 10px;
-padding-bottom: 23px;
+padding: 75px 10px 23px 10px;
 margin-bottom: 20px;
 }
 #five {
 margin-bottom: 20px;
-padding: 10px;
-padding-bottom: 23px;
+padding: 75px 10px 23px 10px;
 }
 #six {
-padding: 10px;
-padding-bottom: 23px;
-padding-top: 0;
-margin-bottom: 0px;
+padding: 75px 10px 23px 10px;
+margin-bottom: 40px;
 }
 #seven {
 margin-bottom: 60px;
