@@ -60,19 +60,24 @@ margin-bottom: 20px;
 #three {
 font-family: "Arial Black";
 margin-bottom: 20px;
-padding: 75px 10px 23px 10px;
+padding: 10px;
+padding-bottom: 23px;
 }
 #four {
-padding: 75px 10px 23px 10px;
+padding: 10px;
+padding-bottom: 23px;
 margin-bottom: 20px;
 }
 #five {
 margin-bottom: 20px;
-padding: 75px 10px 23px 10px;
+padding: 10px;
+padding-bottom: 23px;
 }
 #six {
-padding: 75px 10px 23px 10px;
-margin-bottom: 40px;
+padding: 10px;
+padding-bottom: 23px;
+padding-top: 0;
+margin-bottom: 0px;
 }
 #seven {
 margin-bottom: 60px;
@@ -165,8 +170,8 @@ color:white;
 }
 .fa {
 margin-top: 10px;
-/*margin-left: 10px;*/
-/*float: right;*/
+margin-left: 10px;
+float: right;
 padding: 6px 9px 6px 9px;
 font-size: 20px;
 text-align: center;
@@ -206,7 +211,6 @@ border: 1px solid black;
 }
 #right {
   margin-top: 60px;
-  margin-bottom: 50px;
 }
 
 @-webkit-keyframes arrow {
