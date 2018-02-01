@@ -183,8 +183,10 @@ color: white;
 }
 .fa:hover {
 text-decoration: none;
-color: #fff;
-background: rgba(255, 255, 255, 0.2);
+background-color: darkgrey;
+color: black;
+/*border: 1px solid black;*/
+
 }
 .fa-envelope {
 background: black;
