@@ -11,7 +11,7 @@ font-family: "Arial Black";
 
 .hero-image {
   background-image: url("../images/background.jpg");
-  height: 90%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@ margin-bottom: 20px;
 padding-top: 15px;
 }
 #two {
-  
+
 padding-top: 15px;
 margin-bottom: 20px;
 }
@@ -158,10 +158,23 @@ bottom: -10px;
 animation: arrow 1s infinite;
 animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
 }
-.navbar {
+.navbar-fixed-bottom {
+  border: 0;
+  max-height: none;
+}
+.navbar.navbar-fixed-bottom {
+  border: 0;
+  min-height: none;
+  width: 250px;
 text-align: center;
 color: white;
-border-bottom: solid 3px #52524E;
+/*border-bottom: solid 3px #52524E;*/
+}
+div.container {
+  padding-left: 0;
+  margin-left: -40px;
+  width: 250px;
+
 }
 .fa-github {
 background: #444444;
@@ -169,7 +182,7 @@ color: white;
 }
 #connect {
 margin: 15px 10px 0 0;
-float: right;
+/*float: right;*/
 
 }
 #rights {
@@ -182,7 +195,7 @@ color:white;
   padding-bottom: 65px;
 }*/
 .fa {
-margin-top: 10px;
+/*margin-top: 10px;*/
 margin-left: 10px;
 float: right;
 padding: 6px 9px 6px 9px;
@@ -200,6 +213,7 @@ background-color: darkgrey;
 color: black;
 }
 .fa-envelope {
+  margin-right: 40px;
 background: black;
 color: white;
 }
@@ -218,12 +232,7 @@ margin-right: 10px;
 margin-top: 10px;
 color: white;
 }
-.gorilla {
-  margin-left: 30px;
-}
-.news {
-  margin-right: -30px;
-}
+
 .btn:hover {
 background-color: darkgrey;
 color: black;
