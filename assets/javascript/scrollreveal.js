@@ -862,10 +862,14 @@
 sr.reveal('.foo', { duration: 1000, origin: 'left', distance: '800px', delay: 300 });
 sr.reveal('.bar', { duration: 1000, origin: 'right', distance: '800px', delay: 1500 });
 sr.reveal('.gorilla', { duration: 500, rotate: { x:0, y:100, z:0 } });
-sr.reveal('.news', { duration: 300, delay: 200, rotate: { x:60, y:0, z:100 } });
-sr.reveal('.friend', { duration: 1000, origin: 'bottom', distance: '800px', rotate: { x:600, y:0, z:100 } });
+sr.reveal('.news', { duration: 300, delay: 200, rotate: { x:100, y:0, z:60 }, origin: 'right' });
+sr.reveal('.friend', { duration: 1000, origin: 'bottom', distance: '500px', rotate: { x:600, y:0, z:100 } });
 sr.reveal('.train', { duration: 2000, opacity: 0, delay: 250 });
 sr.reveal('.trivia', { duration: 500, rotate: { x:0, y:100, z:0 }, delay: 300 });
+sr.reveal('.hero-h4', { duration: 2000, opacity: 0, delay: 2000, reset:false, distance: '50px' });
+
+
+
 
 })();
 
