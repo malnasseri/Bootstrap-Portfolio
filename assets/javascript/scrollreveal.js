@@ -859,8 +859,8 @@
     window.ScrollReveal = ScrollReveal
   }
   window.sr = ScrollReveal({reset:true});
-sr.reveal('.foo', { duration: 1000, origin: 'left', distance: '800px', delay: 300 });
-sr.reveal('.bar', { duration: 1000, origin: 'right', distance: '800px', delay: 1500 });
+sr.reveal('.foo', { duration: 1000, origin: 'left', distance: '250px', delay: 300 });
+sr.reveal('.bar', { duration: 1000, origin: 'right', distance: '250px', delay: 1500 });
 sr.reveal('.gorilla', { duration: 500, rotate: { x:0, y:100, z:0 } });
 sr.reveal('.news', { duration: 300, delay: 200, rotate: { x:100, y:0, z:60 }, origin: 'right' });
 sr.reveal('.friend', { duration: 1000, origin: 'bottom', distance: '500px', rotate: { x:600, y:0, z:100 } });
