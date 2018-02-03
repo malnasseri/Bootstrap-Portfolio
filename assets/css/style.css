@@ -7,12 +7,38 @@ height: 100%;
 text-align: center;
 font-family: "Arial Black";
 color: rgb(28, 37, 54);
+
 }
-html{ overflow-x: hidden; };
+.wrapper {
+overflow-x: hidden;
+}
 .partial {
   max-width: 600px;
   margin: 0 auto;
   padding: 35px;
+}
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+#hero-h1 { 
+  font-size:42px;
+    width: 16.5em; 
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end),
+               blink-caret .5s step-end infinite alternate;
+}
+
+#hero {
+min-height: 100px;
+background: rgba(0, 0, 0, 0.1);
+margin-bottom: 35px;
+background-color: #9A9B94;
+color: white;
+}
+#hero, section {
+padding: 35px;
 }
 .hero-image {
   background-image: url("../images/background.jpg");
@@ -26,7 +52,6 @@ html{ overflow-x: hidden; };
 
 .hero-text {
 	font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -68,11 +93,7 @@ background-color: #f4f5f6;
 #one h2 {
   color: #EE7600;
 }
-#two {
 
-padding-top: 15px;
-margin-bottom: 20px;
-}
 #projects-h2 {
   background-color: #767f85;
   margin: 0 auto;
@@ -91,25 +112,22 @@ color: #e9f1f5;
 #four {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 margin-top: 0px;
-/*padding-top: 30px;*/
 padding-bottom: 130px;
 background-color: #f4f5f6;
 
 }
 #five {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-
 padding-bottom: 130px;
 background-color: #767f85;
 color: #e9f1f5;
 }
 #six {
-  font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
+font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 padding-bottom: 130px;
 padding-top: 0;
 margin-bottom: 0;
 background: #f4f5f6;
-/*color: #e9f1f5;*/
 }
 #seven {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -120,24 +138,9 @@ background-color: #d4d9dc;
   background: #949fa7;
   padding: 50px;
   padding-top: 75px;
-    /*color: white;*/
-    font: 340 16px/22px "Lato","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 340 16px/22px "Lato","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/*.wrapper {
-max-width: 600px;
-margin: 0 auto;
-}*/
-#hero {
-min-height: 100px;
-background: rgba(0, 0, 0, 0.1);
-margin-bottom: 35px;
-background-color: #9A9B94;
-color: white;
-}
-#hero, section {
-padding: 35px;
-}
 #scroll {
 text-align: center;
 width: 50px;
@@ -219,17 +222,6 @@ float: left;
 margin-top: 15px;
 color:white;
 }
-.fa {
-margin-top: 5px;
-margin-left: 0px;
-float: right;
-padding: 10px;
-font-size: 20px;
-text-align: center;
-text-decoration: none;
-
-
-}
 .fa-linkedin {
 color: black;
 }
@@ -244,6 +236,16 @@ text-decoration: none;
   margin-right: 30px;
 color: black;
 }
+.fa {
+margin-top: 5px;
+margin-left: 0px;
+float: right;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+}
+
 .navbar-default {
 color: white;
 }
@@ -306,21 +308,7 @@ bottom: -8px;
 bottom: -13px;
 }
 }
-#hero-h1 {
-  font-size:42px;
-}
 
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-#hero-h1 { 
-    width: 16.5em; 
-    width: 21ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 2s steps(21, end),
-               blink-caret .5s step-end infinite alternate;
-}
 #personal-pic {
 margin-top: 0px;
 display: inline-block;
@@ -429,6 +417,9 @@ border:0.9px solid rgba(0,0,0,0.095);
   #seven {
     padding-bottom: 45px;
   }
+  
+
+
 }
 
 
