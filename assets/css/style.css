@@ -15,7 +15,7 @@ color: rgb(28, 37, 54);
   padding: 35px;
 }
 .hero-image {
-  background-image: url("https://res.cloudinary.com/dnhwxgf8i/image/upload/c_scale,h_718,q_100/v1487689941/kamil-lehmann-379_lz8idf.jpg");
+  background-image: url("../images/background.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
