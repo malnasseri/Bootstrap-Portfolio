@@ -409,31 +409,44 @@ border:0.9px solid rgba(0,0,0,0.095);
   background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
 }
-@media only screen and (min-device-width : 375px) {
+@media only screen and (min-width : 375px) and (max-width: 667px){
 
   .projects-img {
     height: 180px;
     width: 200px;
   }
-  #seven {
-    padding-bottom: 45px;
-  }
+  
   #hero-h1 {
     font-size: 30px;
   }
   #hero-h4 {
     font-size: 20px;
   }
-  
+ 
 }
 
 
-@media only screen and (min-device-width : 667px) {
+@media only screen and (min-width : 667px) {
     
-.projects-img {
-    height: 380px;
-    width: 200px;
-  }
+    .carousel {
+      margin-right: 150px;
+    }
+      #slider-h3 {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+#personal-pic {
+margin-top: 0px;
+display: inline-block;
+margin-left: 150px;
+border-radius: 60%;
+border:0.9px solid rgba(0,0,0,0.095);
+}
+
+#about-h3 {
+  float: left;
+  margin: 0 0px 25px 10px;
+}
 
 }
 
