@@ -428,9 +428,12 @@ border:0.9px solid rgba(0,0,0,0.095);
 }
 
 
-
+@media only screen and (min-device-width : 667px) {
     
+.projects-img {
+    height: 380px;
+    width: 200px;
+  }
 
-
-
+}
 
