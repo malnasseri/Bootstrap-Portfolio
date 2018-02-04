@@ -423,12 +423,9 @@ border:0.9px solid rgba(0,0,0,0.095);
   #hero-h4 {
     font-size: 20px;
   }
-  .carousel {
-  float: right;
-  height: 320px;
-  width: 450px;
-  background-color:  none;
-}
+  #eight > div > div > div.col-xs-12.col-sm-12.col-md-4.col-lg-4 {
+    margin-left: -85px;
+  }
 
 }
 
