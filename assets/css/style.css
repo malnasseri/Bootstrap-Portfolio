@@ -429,7 +429,7 @@ border:0.9px solid rgba(0,0,0,0.095);
 #personal-pic {
 margin-top: 0px;
 display: inline-block;
-margin-left: 85px;
+margin-left: 80px;
 margin-right: 30px;
 margin-bottom: 20px;
 border-radius: 60%;
@@ -439,7 +439,7 @@ border:0.9px solid rgba(0,0,0,0.095);
 #about-h3 {
   float: none;
   margin: 0 auto;
-  margin-right: 10px;
+  margin-right: 30px;
   margin-bottom: -60px;
 }
 #about p {
