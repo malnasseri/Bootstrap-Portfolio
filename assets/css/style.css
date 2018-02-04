@@ -424,21 +424,23 @@ border:0.9px solid rgba(0,0,0,0.095);
     font-size: 18px;
   }
   #slider-h3 {
-  margin-left: 15px;
+  margin-left: 5px;
   margin-right: 0px;
 }
 #personal-pic {
 margin-top: 0px;
-margin-left: 80px;
+margin-left: 100px;
 margin-right: 30px;
 margin-bottom: 20px;
 }
-
+.carousel {
+      margin-right: -90px;
+    }
 #about-h3 {
   float: none;
   margin: 0 auto;
   margin-right: 30px;
-  margin-left: 10px;
+  margin-left: 40px;
   margin-bottom: -60px;
 }
 .container {
@@ -455,7 +457,7 @@ margin-bottom: 20px;
   margin-bottom: 75px;
 }
     .carousel {
-      margin-right: 150px;
+      margin-right: -45px;
     }
       #slider-h3 {
   margin-left: 0px;
@@ -477,4 +479,20 @@ margin-right: -140px;
 }
 
 }
+
+@media only screen and (min-width : 667px) { 
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
