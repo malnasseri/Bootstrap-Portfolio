@@ -409,7 +409,7 @@ border:0.9px solid rgba(0,0,0,0.095);
   background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
 }
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (min-device-width : 375px) {
 
   .projects-img {
     height: 180px;
