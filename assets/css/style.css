@@ -424,13 +424,6 @@ border:0.9px solid rgba(0,0,0,0.095);
   }
   
 }
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
 
 
 
