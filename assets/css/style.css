@@ -422,24 +422,7 @@ border:0.9px solid rgba(0,0,0,0.095);
   .hero-h4 {
     font-size: 18px;
   }
-  #slider-h3 {
-  margin-left: 15px;
-  margin-right: 0px;
-}
-#personal-pic {
-margin-top: 0px;
-margin-left: 80px;
-margin-right: 30px;
-margin-bottom: 20px;
-}
-
-#about-h3 {
-  float: none;
-  margin: 0 auto;
-  margin-right: 30px;
-  margin-left: 10px;
-  margin-bottom: -60px;
-}
+  
 .container {
   margin-left: -20px;
 }
@@ -449,31 +432,18 @@ margin-bottom: 20px;
 }
 
 
-@media only screen and (min-width : 667px) {
+/*@media only screen and (min-width : 667px) {
     #right {
   margin-bottom: 75px;
 }
-    .carousel {
-      margin-right: 150px;
-    }
-      #slider-h3 {
-  margin-left: 0px;
-  margin-right: 10px;
-}
-#personal-pic {
-
-margin-left: 150px;
-margin-right: -140px;
-
-}
+#hero-h1 {
+    font-size: 30px;
+  }
+    
 .hero-h4 {
     font-size: 18px;
   }
-#about-h3 {
-  margin: 0 auto;
-  margin-bottom: -40px;
 
-}
 
-}
+}*/
 
