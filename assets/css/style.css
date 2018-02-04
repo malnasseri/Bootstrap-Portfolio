@@ -15,7 +15,7 @@ overflow-x: hidden;
 .partial {
   max-width: 600px;
   margin: 0 auto;
-  padding: 35px;
+  padding: 10px;
 }
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
