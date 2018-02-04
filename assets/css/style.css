@@ -140,7 +140,7 @@ background-color: #d4d9dc;
   padding: 50px;
   padding-top: 75px;
   font: 340 16px/22px "Lato","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+
 }
 
 #scroll {
@@ -410,7 +410,7 @@ border:0.9px solid rgba(0,0,0,0.095);
   background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
 }
-@media only screen and (min-width : 375px) and (max-width: 667px){
+@media only screen and (min-width : 370px) and (max-width: 667px){
 
   .projects-img {
     height: 180px;
