@@ -443,8 +443,8 @@ border:0.9px solid rgba(0,0,0,0.095);
   margin-left: 10px;
   margin-bottom: -60px;
 }
-#about p {
-
+.icons {
+  margin-left: -20px;
 }
 }
 
