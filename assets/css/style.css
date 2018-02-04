@@ -419,8 +419,8 @@ border:0.9px solid rgba(0,0,0,0.095);
   #hero-h1 {
     font-size: 30px;
   }
-  #hero-h4 {
-    font-size: 20px;
+  .hero-h4 {
+    font-size: 18px;
   }
   #slider-h3 {
   margin-left: 15px;
@@ -443,7 +443,7 @@ border:0.9px solid rgba(0,0,0,0.095);
   margin-left: 10px;
   margin-bottom: -60px;
 }
-.icons {
+.container {
   margin-left: -20px;
 }
 }
@@ -463,7 +463,9 @@ border:0.9px solid rgba(0,0,0,0.095);
 margin-left: 150px;
 
 }
-
+.hero-h4 {
+    font-size: 18px;
+  }
 #about-h3 {
   margin: 0 0px 25px 10px;
 }
