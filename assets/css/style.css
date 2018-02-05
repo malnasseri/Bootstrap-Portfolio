@@ -7,6 +7,7 @@ height: 100%;
 text-align: center;
 font-family: "Arial Black";
 color: rgb(28, 37, 54);
+background-color: #f4f5f6;
 }
 
 .wrapper {
@@ -93,11 +94,13 @@ background-color: #f4f5f6;
   color: #EE7600;
 }
 .gorilla {
+
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
    padding: 0 40px 20px 40px;
    margin-top: -15px;
+   background-color: #f4f5f6;
    
 }
 
@@ -107,7 +110,8 @@ background-color: #f4f5f6;
    box-shadow:         inset 0 0 10px #000000;
    padding: 0 40px 20px 40px;
    margin-top: -40px;
-   
+   background-color: #949fa7;
+   color: white;
 }
 .friend {
   -moz-box-shadow:    inset 0 0 10px #000000;
@@ -115,6 +119,8 @@ background-color: #f4f5f6;
    box-shadow:         inset 0 0 10px #000000;
    padding: 0 40px 20px 40px;
    margin-top: -80px;
+   background-color: #f4f5f6;
+
 }
 .train {
   -moz-box-shadow:    inset 0 0 10px #000000;
@@ -122,6 +128,8 @@ background-color: #f4f5f6;
    box-shadow:         inset 0 0 10px #000000;
    padding: 0 33px 20px 33px;
    margin-top: -65px;
+   background-color: black;
+   color: #e9f1f5;
 }
 
 #train-h3 {
@@ -132,10 +140,12 @@ background-color: #f4f5f6;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
    padding: 0 40px 20px 40px;
+   background-color: #949fa7;
+   color: white;
    
 }
 #projects-h2 {
-  background-color: #767f85;
+  background-color: #949fa7;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -146,8 +156,8 @@ font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 margin-bottom: 0px;
 padding: 10px;
 padding-bottom: 130px;
-background-color: #767f85;
-color: #e9f1f5;
+background-color: #949fa7;
+/*color: #e9f1f5;*/
 
 }
 
@@ -163,8 +173,8 @@ background-color: #f4f5f6;
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 padding-bottom: 130px;
 padding-top: 100px;
-background-color: #767f85;
-color: #e9f1f5;
+background-color: #949fa7;
+/*color: #e9f1f5;*/
 }
 #six {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
