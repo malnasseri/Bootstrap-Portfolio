@@ -690,8 +690,12 @@ margin-right: -90px;
 margin-left: 140px;
 
 }
+
 #one {
   padding-top: 0;
+}
+#four {
+  padding-top: 140px;
 }
 #about-h3 {
 margin-right: 30px;
