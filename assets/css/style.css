@@ -546,7 +546,22 @@ margin-right: -160px;
 
 }
 
+@media only screen and (min-width : 1366px) {
 
+  /*#about-h3 { 
+    margin-left: -30px;
+
+}*/
+
+#personal-pic {
+
+margin-left: 260px;
+margin-right: -190px;
+}
+
+
+
+}
 
 
 
