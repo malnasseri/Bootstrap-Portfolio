@@ -96,12 +96,13 @@ background-color: #f4f5f6;
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
-   padding: 30px 40px;
+   padding: 0 40px 20px 40px;
 }
 #projects-h2 {
   background-color: #767f85;
   margin: 0 auto;
   padding-top: 30px;
+  padding-bottom: 20px;
   color: #f6f9fb;
 }
 #three {
