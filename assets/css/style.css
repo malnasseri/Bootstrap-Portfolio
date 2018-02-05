@@ -690,10 +690,15 @@ margin-right: -190px;
 #one h2 {
     font-size: 38px;
   }
-  /*#about-h3 { 
-    margin-left: -80px;
-}
-*/
+  
+  #hero-h1 {
+    font-size: 60px;
+    
+  }
+  .hero-h4 {
+    font-size: 38px;
+    
+  }
 #myCarousel a.left.carousel-control  span.glyphicon.glyphicon-chevron-left {
   
   margin-left: -80px;
