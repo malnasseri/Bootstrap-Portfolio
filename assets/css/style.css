@@ -675,7 +675,9 @@ margin-right: -160px;
     margin-left: -30px;
 
 }*/
-
+#one h2 {
+    font-size: 38px;
+  }
 #personal-pic {
 
 margin-left: 260px;
@@ -698,6 +700,7 @@ margin-right: -190px;
 #one {
   padding-top: 100px;
   padding-bottom: 160px;
+  font-size: 24px;
 }
 
 
