@@ -694,9 +694,24 @@ margin-right: -190px;
     margin-left: -80px;
 }
 */
+#myCarousel a.left.carousel-control  span.glyphicon.glyphicon-chevron-left {
+  
+  margin-left: -80px;
+  margin-top: -40px;
+  
+}
+#myCarousel a.right.carousel-control  span.glyphicon.glyphicon-chevron-right {
+        
+        margin-top: -40px;
+  margin-right: 10px;
+}
+#right {
+  font-size: 26px;
+}
 .carousel {
 height: 350px;
   width: 485px;
+  margin-top: -45px;
 }
 #four {
     font-size: 24px;
