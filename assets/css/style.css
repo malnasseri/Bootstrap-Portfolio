@@ -599,6 +599,7 @@ margin-right: -140px;
 }
 
 @media only screen and (min-width : 768px) {
+
   .btn {
     font-size: 17px;
   }
@@ -616,6 +617,7 @@ margin-right: -140px;
     margin-bottom: 30px;
   }
   #three {
+    padding-top: 60px;
     padding-right: 0px;
     padding-left: 0px;
     font-size: 20px;
