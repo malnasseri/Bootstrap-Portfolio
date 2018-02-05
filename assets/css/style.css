@@ -411,7 +411,43 @@ border:0.9px solid rgba(0,0,0,0.095);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
 }
 @media only screen and (min-width : 370px) {
+  #one p {
+    font-size: 80%;
+  }
+  #tech-skills-h2 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  #three {
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 98%;
+  }
+  #four {
+    font-size: 98%;
+  }
+  #five {
 
+    font-size: 98%;
+  }
+  #six {
+    font-size: 98%;
+  }
+  #seven {
+    font-size: 98%;
+  }
+  .h3, h3 {
+    font-size: 20px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .info h3 {
+    font-size: 20px;
+  }
+  #one h2 {
+    font-size: 23px;
+  }
   .projects-img {
     height: 180px;
     width: 200px;
@@ -453,6 +489,13 @@ margin-bottom: 20px;
 
 
 @media only screen and (min-width : 667px) and (max-width: 767px){
+  #one p {
+    font-size: 90%;
+  }
+  #tech-skills-h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
     #right {
   margin-bottom: 75px;
 }
@@ -481,7 +524,42 @@ margin-right: -140px;
 }
 
 @media only screen and (min-width : 768px) {
+  #one p {
+    font-size: 98%;
+  }
+  #one h2 {
+    font-size: 28px;
+  }
+  #tech-skills-h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #experience-h2 {
+    margin-bottom: 30px;
+  }
+  #three {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+  }
+  #four {
+    font-size: 20px;
+  }
+  #five {
+
+    font-size: 20px;
+  }
+  #six {
+    font-size: 20px;
+  }
+  #seven {
+    font-size: 20px;
+  }
+  #three h3, #four h3, #five h3, #six h3, #seven h3, #eight h3 {
+        font-size: 26px;
+  }
     .carousel {
+  
   margin-right: -25px;
 }
 #personal-pic {
@@ -533,8 +611,53 @@ margin-right: 30px;
 }
 @media only screen and (min-width : 1280px) {
 
+  #three h3, #four h3, #five h3, #six h3, #seven h3, #eight h3 {
+        font-size: 30px;
+  }
+.projects-img {
+    height: 240px;
+    width: 300px;
+  }
+  #three {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+  }
+  .info h3 {
+    font-size: 30px;
+}
+  #four {
+    font-size: 20px;
+    
+  }
+  #five {
+
+    font-size: 20px;
+  }
+  #six {
+    font-size: 20px;
+  }
+  #seven {
+    font-size: 20px;
+  }
+#one p {
+    font-size: 100%;
+  }
+
+  #experience-h2 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+  #one h2 {
+    font-size: 36px;
+  }
+  #tech-skills-h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 #about-h3 { 
-    margin-right: 60px;
+    margin-right: 0px;
+    margin-top: -10px;
 
 }
 
