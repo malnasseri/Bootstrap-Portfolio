@@ -690,7 +690,9 @@ margin-right: -90px;
 margin-left: 140px;
 
 }
-
+#one {
+  padding-top: 0;
+}
 #about-h3 {
 margin-right: 30px;
   /*margin: 0 10px 25px 40px;*/
