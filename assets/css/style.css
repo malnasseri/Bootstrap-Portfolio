@@ -483,15 +483,10 @@ margin-right: -140px;
 @media only screen and (min-width : 768px) {
     .carousel {
   margin-right: -25px;
- /* height: 160px;
-  width: 245px;
-  background-color:  none;*/
 }
 #personal-pic {
-
 margin-left: 200px;
 margin-right: 0px;
-
 }
 
 #about-h3 {
@@ -507,9 +502,49 @@ margin-right: 0px;
   }
 }
 
+@media only screen and (min-width : 980px) {
+
+#personal-pic {
+margin-left: 310px;
+margin-right: -90px;
+}
+ .carousel {
+  margin-right: 10px;
+}
+
+}
+
+@media only screen and (min-width : 1024px) {
+
+.carousel {
+      margin-right: -60px;
+    }
+#personal-pic {
+/*margin-top: 0px;*/
+margin-left: 140px;
+
+}
+
+#about-h3 {
+margin-right: 30px;
+  /*margin: 0 10px 25px 40px;*/
+  margin-left: 0px;
+}
+}
+@media only screen and (min-width : 1280px) {
+
+#about-h3 { 
+    margin-right: 60px;
+
+}
+
+#personal-pic {
+margin-left: 220px;
+margin-right: -160px;
+}
 
 
-
+}
 
 
 
