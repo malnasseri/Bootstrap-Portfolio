@@ -692,8 +692,11 @@ margin-right: -190px;
     margin-left: -80px;
 }
 */
-
+.foo {
+  padding-bottom: 60px;
+}
 #one {
+  padding-top: 100px;
   padding-bottom: 160px;
 }
 
