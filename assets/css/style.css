@@ -694,6 +694,9 @@ margin-right: -190px;
 }
 
 @media only screen and (min-width : 1675px) {
+  .btn {
+    font-size: 20px;
+  }
   div#scroll.clicked span {
     bottom: -12px;
   }
