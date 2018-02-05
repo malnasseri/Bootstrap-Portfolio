@@ -97,7 +97,42 @@ background-color: #f4f5f6;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
    padding: 0 40px 20px 40px;
-   margin-bottom: 40px;
+   margin-top: -15px;
+   
+}
+
+.news {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   padding: 0 40px 20px 40px;
+   margin-top: -40px;
+   
+}
+.friend {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   padding: 0 40px 20px 40px;
+   margin-top: -80px;
+}
+.train {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   padding: 0 33px 20px 33px;
+   margin-top: -65px;
+}
+
+#train-h3 {
+  margin-top: -10px;
+}
+.trivia {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   padding: 0 40px 20px 40px;
+   
 }
 #projects-h2 {
   background-color: #767f85;
@@ -118,21 +153,23 @@ color: #e9f1f5;
 
 #four {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-margin-top: 0px;
-padding-bottom: 130px;
+margin-top: 40px;
+padding-bottom: 120px;
+padding-top: 40px;
 background-color: #f4f5f6;
 
 }
 #five {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 padding-bottom: 130px;
+padding-top: 100px;
 background-color: #767f85;
 color: #e9f1f5;
 }
 #six {
 font: 340 20px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-padding-bottom: 130px;
-padding-top: 0;
+padding-bottom: 120px;
+padding-top: 70px;
 margin-bottom: 0;
 background: #f4f5f6;
 }
@@ -449,6 +486,7 @@ border:0.9px solid rgba(0,0,0,0.095);
     font-size: 20px;
   }
   .btn {
+    font-size: 12px;
     width: 100%;
   }
   .info h3 {
@@ -533,6 +571,9 @@ margin-right: -140px;
 }
 
 @media only screen and (min-width : 768px) {
+  .btn {
+    font-size: 17px;
+  }
   #one p {
     font-size: 98%;
   }
@@ -675,7 +716,9 @@ margin-left: 220px;
 margin-right: -160px;
 }
 
-
+.btn {
+  font-size: 18px;
+}
 }
 
 @media only screen and (min-width : 1366px) {
