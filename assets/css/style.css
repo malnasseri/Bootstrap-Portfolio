@@ -681,7 +681,14 @@ margin-right: -160px;
 margin-left: 260px;
 margin-right: -190px;
 }
-
+#hero-h1 {
+    font-size: 45px;
+    
+  }
+  .hero-h4 {
+    font-size: 28px;
+    
+  }
 
 
 }
@@ -690,7 +697,7 @@ margin-right: -190px;
 #one h2 {
     font-size: 38px;
   }
-  
+
   #hero-h1 {
     font-size: 60px;
     
