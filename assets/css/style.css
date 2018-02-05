@@ -694,6 +694,17 @@ margin-right: -190px;
 }
 
 @media only screen and (min-width : 1675px) {
+#scroll span {
+bottom: 0px;
+}
+#scroll {
+  width: 65px;
+height: 65px;
+font-size: 38px;
+margin-top: -70px;
+}
+
+
 #one h2 {
     font-size: 38px;
   }
