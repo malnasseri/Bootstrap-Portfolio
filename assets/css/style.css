@@ -694,6 +694,10 @@ margin-right: -190px;
     margin-left: -80px;
 }
 */
+.carousel {
+height: 350px;
+  width: 485px;
+}
 #four {
     font-size: 24px;
     
