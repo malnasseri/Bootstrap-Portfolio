@@ -867,7 +867,8 @@ sr.reveal('.friend', { duration: 1500, origin: 'bottom', distance: '500px', rota
 sr.reveal('.train', { duration: 2000, opacity: 0, delay: 250 });
 sr.reveal('.trivia', { duration: 500, rotate: { x:0, y:100, z:0 }, delay: 300 });
 sr.reveal('.hero-h4', { duration: 2000, opacity: 0, delay: 1500, reset:false, distance: '50px' });
-
+sr.reveal('.manager', { duration: 1500, origin: 'left', distance: '800px', delay: 300 });
+sr.reveal('.customer', { duration: 1500, origin: 'right', distance: '800px', delay: 300 });
 
 
 

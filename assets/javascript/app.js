@@ -48,5 +48,6 @@
   }
   count++;
   $(this).find('.arrow-bounce').removeClass('arrow-bounce');
+  
   });
   
