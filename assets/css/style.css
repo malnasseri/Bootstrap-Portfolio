@@ -41,6 +41,7 @@ color: white;
 #hero, section {
 padding: 35px;
 }
+
 .hero-image {
   background-image: url("../images/background.jpg");
   height: 100%;
